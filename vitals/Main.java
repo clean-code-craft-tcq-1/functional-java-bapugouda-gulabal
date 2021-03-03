@@ -20,7 +20,7 @@ public class Main {
         assert(lionBattery.isBatteryOk(15, 25, 0.9f) == false);
         assert(lionBattery.isBatteryOk(45, 80, 0.8f) == true);
         assert(lionBattery.isBatteryOk(50 , 90, 0.9f) == false);
-        assert(lionBattery.isBatteryOk(-1 , 40, 0.6f) == false);
+        assert(lionBattery.isBatteryOk(-1 , 40, 0.8f) == false);
     	                
        System.out.println("Testing Finished!!");
     }
