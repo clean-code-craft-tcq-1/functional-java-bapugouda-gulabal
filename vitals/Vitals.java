@@ -3,7 +3,7 @@ package vitals;
  * @author BUP5KOR
  *
  */
-public class Main {
+public class Vitals {
 	
       public static void main(String[] args) {
     	  
