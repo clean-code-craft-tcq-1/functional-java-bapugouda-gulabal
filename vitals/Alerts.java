@@ -6,6 +6,6 @@ package vitals;
  */
 public interface Alerts {
 	
-	void alertVital(String vital, float val);
+	void alertVital(String vitalName, float value);
 	
 }

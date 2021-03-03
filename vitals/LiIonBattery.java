@@ -52,9 +52,9 @@ public class LiIonBattery implements Alerts{
 		return true;
 	}
 	
-		public void alertVital(String vital, float val) {
+		public void alertVital(String vitalName, float value) {
 		
-		System.out.println(vital+ ":-" +val);
+		System.out.println(vitalName+ ":-" +value);
 		
 	}
 
